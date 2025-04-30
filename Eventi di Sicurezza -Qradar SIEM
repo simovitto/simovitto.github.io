@@ -1,0 +1,87 @@
+ANOMALY	
+Excessive Database Connections	
+Suspicious number of account lockouts
+Suspicious Number of Same User Logins to Multiple Devices
+Excessive Firewall Denies from Single Source	
+Unusual Number of Devices Logged on by Same User	
+
+AUTHENTICATION	
+Multiple Login Failures from the Same Source	
+Multiple Login Failures to the Same Destination	
+Login Failures Followed By Success to the same Username or same Source IP	
+Multiple Login Failures for Single Username	
+Login Successful After Scan Attempt	
+Login Failures Followed By Success to the same Destination IP	
+Login Failures Followed By Success to the same Username	
+
+COMPLIANCE	
+Database Remote Login Failure	
+Database Remote Login Success	
+
+DDOS	
+Potential DDoS Against Single Host (TCP)	
+DoS Events with High Magnitude Become Offenses	
+DDoS Attack Detected	
+
+EXFILTRATION	
+Large Outbound Transfer High Rate of Transfer	
+Possible Data Exfiltration	
+
+EXPLOIT	
+Multiple Exploit Types Against Single Destination	
+
+INTRUSION DETECTION	
+Multiple Database Failures Followed by Success	
+Database Failures Followed by User Changes	
+
+MALWARE	
+Malware or Virus Clean Failed	
+
+POST-INTRUSION ACTIVITY	
+Database Concurrent Logins from Multiple Locations	
+Database Attempted Configuration Modification by a remote host	
+
+RECON	
+Host Port Scan Detected by Remote Host	
+Remote Windows Server Scanner	
+Local L2R RPC Server Scanner	
+Local L2R Scanner Detected	
+Excessive Firewall Denies from Remote Host	
+Remote IRC Server Scanner	
+Local L2R SSH Server Scanner	
+Local L2R IRC Server Scanner	
+Local L2R FTP Scanner	
+Local L2R LDAP Server Scanner	
+Excessive Firewall Denies from Local Host	
+Remote FTP Scanner	
+Remote LDAP Server Scanner	
+Remote SSH Server Scanner
+Remote Database Scanner	
+Remote Proxy Server Scanner	
+
+THREATS	
+Multiple unclean threats detected on same host	
+Internal Host Communicating with Host Categorized as Anonymizer	
+IRC Connections	
+Possible Local IRC Server	
+Communication with a web site known to be involved in botnet activity	
+Multiple Threats Detected on Same Host	
+Internal host communicating with host categorized as tor nodes	
+Potential dos attack on a web server	
+Potential http dos flooding	
+Same threat detected on multiple hosts	
+Same threat detected on multiple servers	
+Same threat detected on same host	
+Successful communication to a malicious website	
+Local: FTP Detected on Non-Standard Port	
+Remote: Local P2P Server connected to more than 100 Clients	
+Remote: Local P2P Client Connected to more than 100 Servers	
+Possible Local Worm Detected	
+SSH or Telnet Detected on Non-Standard Port	
+Suspicious Network Traffic to Internal Web Server	
+Suspicious Web Server Activities	
+Excessive Denied SMB Traffic From a Compromised Host	
+Failed Communication to a Malicious Website	
+Potential Log4Shell Activity	
+Remote: Client Based DNS Activity to the Internet	
+Remote: Possible Tunneling	
