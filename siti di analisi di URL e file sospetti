@@ -1,0 +1,14 @@
+
+https://www.virustotal.com  (si inserisce URL, IP, Domain, file hash)
+https://www.abuseipdb.com/
+https://www.ipvoid.com/
+https://www.fortiguard.com
+
+Cos'è un hash?
+Un hash è una "firma digitale" unica che identifica un file. È una sequenza di caratteri generata da un algoritmo (come MD5, SHA-1, o SHA-256) e cambia anche se modifichi solo un byte del file.
+
+Se hai un hash di un file:
+
+1) Puoi verificare rapidamente se quel file è stato già analizzato da altri.
+2) Non serve caricare fisicamente il file, utile se è grande o riservato.
+3) Ottieni un report con risultati dei motori antivirus.
